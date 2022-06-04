@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+
+     <div style={{border:"solid 1px Red",maxWidth:"100vw"}}/>
+
+ <h1 className="title white">Ahlem brahmi </h1>
+
+ <br />
+  
+
+ <img id="im" src="imageInPublic.jpg" alt="Im"/>
+
+ <br />
+
+ <img id= "im1" src="imageInSrc.jpg" alt="Im1"/>
+
+ <br />
+ < iframe title="react video" src = "https://www.youtube.com/embed/uXWycyeTeCs" largeur = {1000} hauteur = {500} > </ iframe >    
+
+
+
     </div>
   );
 }
