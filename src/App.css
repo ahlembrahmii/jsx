@@ -3,15 +3,19 @@
 }
 
 #im {
-    width : 150px;
-height : 150px;}
-#im1 {
-  width : 200px;
-height : 200px;
-   
-   
-  }
+    width : 200px;
+height : 200px;}
+
+.container
+{
+    background-color: rgba(0, 0, 0, 0.116);
+    color: white;
+}
   
+  #image {
+    width : 200px;
+height : 200px;}
+
    
 .container {
   display: flex;
